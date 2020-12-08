@@ -1,0 +1,22 @@
+{
+  "name": "ingamedata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "needle": "^2.4.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json && node dist/src/main.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
